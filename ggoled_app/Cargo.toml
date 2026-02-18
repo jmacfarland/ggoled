@@ -25,4 +25,4 @@ winresource = "0.1.27"
 
 [target.'cfg(unix)'.dependencies]
 mpris = "2"
-sdl3-sys = { version = "0.5" }
+sdl3-sys = { version = "0.5", features = ["build-from-source-static"] }
